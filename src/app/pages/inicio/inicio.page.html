@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()" color="primary">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <img class="logo" src="assets/logo.png" routerLink="/quienessomos">
+    <!--<ion-title color="white">App-Ttendance</ion-title>-->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar>
+    <p >Bienvenido nuevamente, Esteban!</p>
+  <ion-button color="warning" expand="block" routerLink="/escanear">Generar QR</ion-button>
+  <ion-button expand="block">Asistencia</ion-button>
+  <ion-button color="danger" expand="block">Horario</ion-button>
+    
+  </ion-toolbar>
+  <ion-toolbar>
+    <p class="subtitulo">2022 App-Ttendance</p>
+  <p class="subtitulo">Todos los derechos reservados 2022</p>
+    
+  </ion-toolbar>
+
+
+
+</ion-content>
